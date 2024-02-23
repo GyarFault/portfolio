@@ -1,2 +1,0 @@
-eval(function (j, b, f, i, h, g) { while (f--) { if (i[f]) { j = j.replace(new RegExp("\\b" + f.toString(b) + "\\b", "g"), i[f]) } } return j }("n.c(\"h\");6 9=g f();6 0=9.a();6 1;3(0<4)1='2 e';5 3(0==4)1='2 d';5 3(0>=4&&0<=7)1='2 o';5 3(0>=7&&0<=q)1='2 p';8();m 8(){j.i(\"l\").k='<b>'+1+'</b>'};", 27, 27, "currentHour|msg|Good|if|12|else|var|17|what|myDate|getHours||log|Noon|Morning|Date|new|me|getElementById|document|innerHTML|morning|function|console|Afternoon|Evening|24".split("|")));
-
