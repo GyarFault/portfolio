@@ -14,6 +14,15 @@ body::after{content:'';position:absolute;top:0;left:0;width:100%;height:130%;bac
 .pencil{display:inline-block;position:relative;width:5rem;height:16rem;margin-left:6rem;text-align:center}
 .pencil h2:nth-child(1){margin-left:1rem;color:#fff}
 .pencil h2:nth-child(2){color:#fff;margin-left:1rem}
+.oil{display:inline-block;position:relative;width:5rem;height:16rem;margin-left:6rem;text-align:center}
+.oil h2:nth-child(1){margin-left:1rem;color:#fff}
+.oil h2:nth-child(2){color:#fff;margin-left:.5rem}
+.glow{display:inline-block;position:relative;width:5rem;height:16rem;margin-left:6rem;text-align:center}
+.glow h2:nth-child(1){margin-left:1rem;color:#fff}
+.glow h2:nth-child(2){color:#fff;margin-left:2rem}
+.mani{display:inline-block;position:relative;width:5rem;height:16rem;margin-left:6rem;text-align:center}
+.mani h2:nth-child(1){margin-left:1rem;color:#fff}
+.mani h2:nth-child(2){color:#fff;margin-left:-1rem}
 .container .card .content{text-align:center;transform:translateY(250px);opacity:1;transition:.5s;margin-left:-170px;margin-top:35px;font-size:1.2rem}
 .container .card:hover .content{transform:translateY(0px);opacity:1}
 .container .card:hover .fish img{background-color:black;opacity:.5}
