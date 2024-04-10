@@ -16,9 +16,14 @@ function SendEmail() {
         To: "ankurtalukdarcontact@gmail.com",
         From: "darksoulofficial365@gmail.com",
         Subject: "This is the subject",
-        Body: "name : " + document.getElementById("name").value + "<br/> email : " + document.getElementById("email").value + "<br/> phone : " + document.getElementById("phone").value + "<br/> message : " + document.getElementById("message").value
+        Body: "name : " + document.getElementById("name").value + "<br/> email : " + document.getElementById("email").value + "<br/> phone : " + document.getElementById("phone").value + "<br/> message : " + document.getElementById("message").value + "<br/> subject : " + document.getElementById("dog-names").value
     }).then(
-        message => alert(message)
+        // message => alert(message)
+        message => {
+            if (message=='OK'){
+                swal("Successfull", "Your Data Successfully received", "Success")
+            }
+        }
     );
 }
 
